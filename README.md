@@ -2,7 +2,7 @@
 
 AI-powered resume and job description matcher using NLP.
    
-## Features
+## Features                     
 - Resume parsing (PDF/DOCX)
 - Job description parsing
 - Match score using TF-IDF + Cosine Similarity
