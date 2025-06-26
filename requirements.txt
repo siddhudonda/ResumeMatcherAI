@@ -1,0 +1,7 @@
+pyresparser
+nltk
+spacy
+sklearn
+gradio
+pdfminer.six
+python-docx
