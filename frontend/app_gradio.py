@@ -6,7 +6,7 @@ def process_inputs(resume_file, job_file):
     job_path = job_file.name
     resume_text, job_text, score = run_pipeline(resume_path, job_path)
     return resume_text, job_text, f"Match Score: {score*100:.2f}%"
-
+                                                                            
 demo = gr.Interface(
     fn=process_inputs,
     inputs=[
